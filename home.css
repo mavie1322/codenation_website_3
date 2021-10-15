@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rajdhani";
+    font-size: 30px;
+    color: white;
+    
+}
+.flex-header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient( yellow,orange,brown);
+    font-size: 40px;
+    height: 25%;
+    
+}
+.flex-header >h1{
+    justify-content: flex-start;
+}
+.flex-main {
+    display: flex;
+    flex-direction: row;
+    background-color: #b34700;
+}
+.logo{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+.nav-list .list-name {
+    display: inline-block;
+    padding: 5px 5px;
+    list-style-type: none;
+    font-size: 10px; 
+}
+
+.flex-header a{
+    text-decoration: none;
+}
+
+.flex-right{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+
+.flex-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.tourist-sites{
+    height: 100%;
+    width: 450px;
+}
+.flags{
+    height: 500px;
+    width: 100%;
+}
+
+.submit{
+    color: black;
+    background-color: orange;
+}
+a {
+    color: white;
+}
+input{
+    border-style: solid;
+    margin-bottom: 10px;
+}
+h1{
+    width: 20%;
+    padding: 96px 90px;;
+}
+
+h4{
+   display: flex;
+   justify-content: center;
+}
+
+p {
+    text-indent: 40px;
+    text-align: justify;
+    margin: 10px;
+}
+form {
+    text-align: justify;
+    margin: 5px;
+}
